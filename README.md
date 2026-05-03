@@ -98,6 +98,11 @@ http://localhost:8000/metrics
 
 ---
 
+# If grafana panel shows no data
+ - Please click on 3 dots at the top left corner of a panel.
+ - Click refresh
+ - Click back to dashboard
+
 # Project Structure
 
 network-analyzer/
@@ -147,18 +152,26 @@ network-analyzer/
 
 # Quick Start
 
-# 1. Install Prometheus
-# 2. Create venv
+### 1. Install Prometheus
+### 2. Create venv
+```
 python3 -m venv .venv
+```
 
-# 3. Activate venv
+### 3. Activate venv
+```
 source .venv/bin/activate
+```
 
-# 4. Install dependencies
+### 4. Install dependencies
+```
 pip install -r requirements.txt
+```
 
-# 5. Run system
+### 5. Run system
+```
 ./start.sh
+```
 
 ---
 
